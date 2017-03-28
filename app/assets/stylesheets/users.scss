@@ -1,0 +1,21 @@
+// Place all the styles related to the Users controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.field,
+.actions{
+    background-color: #eee;
+    padding:10px 0;
+    margin-bottom: 5px;
+
+    label{
+        display: inline-block;
+        width:200px;
+        text-align: right;
+    }
+}
+
+.field_with_errors{
+    background-color: #f00;
+    color:#fff;
+    display: inline-block;
+}
